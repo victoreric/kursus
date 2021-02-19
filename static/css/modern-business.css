@@ -1,0 +1,72 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template/modern-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+  
+}
+@media only screen and (max-width: 780px) {
+   /* For mobile phones: */
+  .cat_popup {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 781px) {
+   /* For desktop, menu kategori popup dihilangkan */
+  .cat_popup {
+    display: none;
+  }
+}
+
+
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.nav {
+  padding-left: 0;
+}
+.nav li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+.nav li a{
+  color:whitesmoke;
+  text-decoration: none;
+}
+.nav li a:hover{
+  color : gold;
+}
+
+
+.content {
+  float: left;
+  width: 80%;
+}
+
+.sidebar {
+  float: left;
+  width: 20%;
+}
+
+p{
+  font-size: 14px;
+}
+
+
